@@ -3,7 +3,7 @@ import pandas as pd
 
 pd.set_option('display.float_format', lambda x: '%.5f' % x)
 
-learning_rate = 0.00001
+learning_rate = 0.005
 data = pd.read_csv('data.csv', header=None)
 weights = np.array([0, 0])
 output = data[1]
